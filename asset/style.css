@@ -1,19 +1,19 @@
-/* General Styles */
+
 body {
-    background-color: #000; /* Black background */
-    color: #fff; /* White text */
+    background-color: #000; 
+    color: #fff; 
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
 }
 
-/* Navbar Styles */
+
 .navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 15px 20px;
-    background-color: #222; /* Darker background for navbar */
+    background-color: #222; 
     color: white;
 }
 
@@ -46,7 +46,7 @@ body {
 }
 
 .navbar ul li:hover {
-    color: #f4a261; /* Highlight color */
+    color: #f4a261; 
 }
 
 .navbar button {
@@ -63,13 +63,13 @@ body {
     background-color: #e76f51;
 }
 
-/* Hero Section */
+
 .hero {
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 50px;
-    background-color: #111; /* Dark background for hero section */
+    background-color: #111; 
 }
 
 .hero-content {
@@ -78,12 +78,12 @@ body {
 
 .hero-content h2 {
     font-size: 2.5rem;
-    color: #fff; /* White text */
+    color: #fff; 
 }
 
 .hero-content h5 {
     font-size: 1rem;
-    color: #ccc; /* Light gray for secondary text */
+    color: #ccc; 
     line-height: 1.6;
 }
 
@@ -110,19 +110,19 @@ body {
 }
 
 
-/* Interests Section */
+
 .interests {
     display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 20px;
     padding: 50px;
-    background-color: #111; /* Dark background */
+    background-color: #111; 
 }
 
 .card {
     flex: 1;
-    background: #222; /* Dark card background */
+    background: #222; 
     padding: 20px;
     text-align: center;
     border-radius: 10px;
@@ -142,7 +142,7 @@ body {
 
 .card p {
     font-size: 1rem;
-    color: #ccc; /* Light gray text */
+    color: #ccc; 
     line-height: 1.6;
 }
 
@@ -161,16 +161,16 @@ body {
     background-color: #e76f51;
 }
 
-/* Technical Skills Section */
+
 .technical-skills {
     text-align: center;
     padding: 50px;
-    background-color: #111; /* Dark background */
+    background-color: #111; 
 }
 
 .technical-skills h2 {
     font-size: 2.5rem;
-    color: #fff; /* White text */
+    color: #fff; 
     margin-bottom: 30px;
 }
 
@@ -181,7 +181,7 @@ body {
 }
 
 .skill-card {
-    background: #222; /* Dark card background */
+    background: #222; 
     padding: 20px;
     text-align: center;
     border-radius: 10px;
@@ -202,18 +202,18 @@ body {
 
 .skill-card h3 {
     font-size: 1.5rem;
-    color: #fff; /* White text */
+    color: #fff;
 }
 
 .skill-card p {
     font-size: 1rem;
-    color: #ccc; /* Light gray text */
+    color: #ccc; 
     line-height: 1.6;
 }
 
-/* Footer Styles */
+
 .footer {
-    background-color: #222; /* Dark background */
+    background-color: #222; 
     color: white;
     padding: 30px;
     text-align: center;
@@ -243,14 +243,14 @@ body {
 }
 
 .footer .social-link:hover {
-    color: #3498db; /* Highlight color */
+    color: #3498db; 
 }
 
 .footer .social-link i {
     transition: color 0.3s ease;
 }
 
-/
+
 @media (max-width: 1200px) {
     
     .hero-content h2 {
@@ -354,62 +354,4 @@ body {
         font-size: 20px;
     }
 }
-/* Navbar */
-@media (max-width: 768px) {
-    .navbar {
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-    }
 
-    .navbar ul {
-        flex-direction: column;
-        gap: 10px;
-    }
-
-    .navbar button {
-        margin-top: 10px;
-    }
-}
-
-/* Hero Section */
-@media (max-width: 768px) {
-    .hero {
-        flex-direction: column;
-        text-align: center;
-        padding: 20px;
-    }
-
-    .hero-content {
-        max-width: 100%;
-    }
-
-    .hero-image img {
-        max-width: 90%;
-        margin-top: 20px;
-    }
-}
-
-/* Interests & Skills */
-@media (max-width: 768px) {
-    .interests, .skills-container {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .card, .skill-card {
-        width: 90%;
-        margin-bottom: 20px;
-    }
-}
-
-/* Footer */
-@media (max-width: 480px) {
-    .footer p {
-        font-size: 14px;
-    }
-
-    .footer .name {
-        font-size: 18px;
-    }
-}
